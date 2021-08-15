@@ -25,10 +25,13 @@ export function Pages({ children }: Props) {
     });
   });
 
+  const item = items[current - 1];
+  const barColor = getBarColor((item as any).type?.name ?? "");
+
   return (
     <Wrapper>
       <Content>{items[current - 1]}</Content>
-      <BottomBar>
+      <BottomBar style={{ backgroundColor: barColor }}>
         {current > 1 && <LeftLink href={`#${current - 1}`}>Back</LeftLink>}
         <PageNumber>&ndash; {current} &ndash;</PageNumber>
         {current < items.length && (
@@ -37,6 +40,16 @@ export function Pages({ children }: Props) {
       </BottomBar>
     </Wrapper>
   );
+}
+
+function getBarColor(name: string) {
+  if (name.endsWith("Lesson")) {
+    return "#000000";
+  } else if (name.endsWith("Task")) {
+    return "#2380e6";
+  } else if (name.endsWith("Bonus")) {
+    return "#fd7e14";
+  }
 }
 
 const Wrapper = styled.div`
@@ -53,7 +66,7 @@ const Content = styled.div`
 `;
 
 const BottomBar = styled.div`
-  background-color: #f7302f;
+  background-color: black;
   color: white;
   padding: 8px 16px;
   display: grid;
