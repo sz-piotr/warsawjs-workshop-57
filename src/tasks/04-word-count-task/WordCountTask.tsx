@@ -9,5 +9,5 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 */
 
 export function WordCountTask() {
-  return <div>State?!</div>;
+  return <div>Task: Word Count</div>;
 }

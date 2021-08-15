@@ -16,5 +16,5 @@ const favoritePictureUrl = "???";
 const favoriteColor = "???";
 
 export function AboutMeTask() {
-  return <div>Nothing here yet</div>;
+  return <div>Task: About Me</div>;
 }

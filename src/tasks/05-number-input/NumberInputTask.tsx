@@ -15,5 +15,5 @@ function add (a: number, b: number) {
 */
 
 export function NumberInputTask() {
-  return <div>State?!</div>;
+  return <div>Task: Number Input</div>;
 }
