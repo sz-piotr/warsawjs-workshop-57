@@ -16,6 +16,6 @@ We'll cover the following topics:
 
 */
 
-export function Introduction() {
-  return <div className="red">Hello World!</div>;
+export function IntroductionLesson() {
+  return <div>Hello World!</div>;
 }

@@ -15,6 +15,6 @@ const lastName = "???";
 const favoritePictureUrl = "???";
 const favoriteColor = "???";
 
-export function AboutMe() {
+export function AboutMeTask() {
   return <div>Nothing here yet</div>;
 }
