@@ -1,3 +1,5 @@
+import { Introduction } from "../tasks/01-introduction";
+import { AboutMe } from "../tasks/02-about-me";
 import { GlobalStyle } from "./GlobalStyle";
 import { Pages } from "./Pages";
 
@@ -6,10 +8,8 @@ export function App() {
     <>
       <GlobalStyle />
       <Pages>
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>
-        <div>4</div>
+        <Introduction />
+        <AboutMe />
       </Pages>
     </>
   );
