@@ -3,9 +3,9 @@ import { AboutMeTask } from "../tasks/02-about-me-task/AboutMeTask";
 import { StateLesson } from "../tasks/03-state-lesson/StateLesson";
 import { WordCountTask } from "../tasks/04-word-count-task/WordCountTask";
 import { NumberInputTask } from "../tasks/05-number-input-task/NumberInputTask";
-import { PhoneNumberBonus } from "../tasks/05b-phone-number-bonus/PhoneNumberBonus";
-import { IfForLesson } from "../tasks/06-if-for-lesson/IfForLesson";
-import { EmployeesTask } from "../tasks/07-employees-task/EmployeesTask";
+import { PhoneNumberBonus } from "../tasks/06-phone-number-bonus/PhoneNumberBonus";
+import { IfForLesson } from "../tasks/07-if-for-lesson/IfForLesson";
+import { EmployeesTask } from "../tasks/08-employees-task/EmployeesTask";
 import { GlobalStyle } from "./GlobalStyle";
 import { Pages } from "./Pages";
 
