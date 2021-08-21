@@ -12,6 +12,8 @@ import { KeysLesson } from "../tasks/11-keys-lesson/KeysLesson";
 import { StarsTask } from "../tasks/12-stars-task/StarsTask";
 import { TypeScriptBasicsLesson } from "../tasks/13-typescript-basiscs-lesson/TypeScriptBasicsLesson";
 import { CustomButtonTask } from "../tasks/14-custom-button-task/CustomButtonTask";
+import { GenericsLesson } from "../tasks/15-generics-lesson/GenericsLesson";
+import { MysteryBoxesTask } from "../tasks/16-mystery-boxes-task/MysteryBoxesTask";
 import { GlobalStyle } from "./GlobalStyle";
 import { Pages } from "./Pages";
 
@@ -34,6 +36,8 @@ export function App() {
         <StarsTask />
         <TypeScriptBasicsLesson />
         <CustomButtonTask />
+        <GenericsLesson />
+        <MysteryBoxesTask />
       </Pages>
     </>
   );
