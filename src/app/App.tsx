@@ -7,6 +7,8 @@ import { PhoneNumberBonus } from "../tasks/06-phone-number-bonus/PhoneNumberBonu
 import { IfForLesson } from "../tasks/07-if-for-lesson/IfForLesson";
 import { EmployeesTask } from "../tasks/08-employees-task/EmployeesTask";
 import { ComponentsLesson } from "../tasks/09-components-lesson/ComponentsLesson";
+import { FavoritesTask } from "../tasks/10-favorites-task/FavoritesTask";
+import { KeysLesson } from "../tasks/11-keys-lesson/KeysLesson";
 import { GlobalStyle } from "./GlobalStyle";
 import { Pages } from "./Pages";
 
@@ -24,6 +26,8 @@ export function App() {
         <IfForLesson />
         <EmployeesTask />
         <ComponentsLesson />
+        <FavoritesTask />
+        <KeysLesson />
       </Pages>
     </>
   );
