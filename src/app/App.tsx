@@ -9,6 +9,7 @@ import { EmployeesTask } from "../tasks/08-employees-task/EmployeesTask";
 import { ComponentsLesson } from "../tasks/09-components-lesson/ComponentsLesson";
 import { FavoritesTask } from "../tasks/10-favorites-task/FavoritesTask";
 import { KeysLesson } from "../tasks/11-keys-lesson/KeysLesson";
+import { StarsTask } from "../tasks/12-stars-task/StarsTask";
 import { GlobalStyle } from "./GlobalStyle";
 import { Pages } from "./Pages";
 
@@ -28,6 +29,7 @@ export function App() {
         <ComponentsLesson />
         <FavoritesTask />
         <KeysLesson />
+        <StarsTask />
       </Pages>
     </>
   );
