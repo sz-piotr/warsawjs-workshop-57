@@ -14,6 +14,8 @@ import { TypeScriptBasicsLesson } from "../tasks/13-typescript-basiscs-lesson/Ty
 import { CustomButtonTask } from "../tasks/14-custom-button-task/CustomButtonTask";
 import { GenericsLesson } from "../tasks/15-generics-lesson/GenericsLesson";
 import { MysteryBoxesTask } from "../tasks/16-mystery-boxes-task/MysteryBoxesTask";
+import { ReducerLesson } from "../tasks/17-reducer-lesson/ReducerLesson";
+import { TodoListTask } from "../tasks/18-todo-list-task/TodoListTask";
 import { GlobalStyle } from "./GlobalStyle";
 import { Pages } from "./Pages";
 
@@ -38,6 +40,8 @@ export function App() {
         <CustomButtonTask />
         <GenericsLesson />
         <MysteryBoxesTask />
+        <ReducerLesson />
+        <TodoListTask />
       </Pages>
     </>
   );
