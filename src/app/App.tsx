@@ -10,6 +10,8 @@ import { ComponentsLesson } from "../tasks/09-components-lesson/ComponentsLesson
 import { FavoritesTask } from "../tasks/10-favorites-task/FavoritesTask";
 import { KeysLesson } from "../tasks/11-keys-lesson/KeysLesson";
 import { StarsTask } from "../tasks/12-stars-task/StarsTask";
+import { TypeScriptBasicsLesson } from "../tasks/13-typescript-basiscs-lesson/TypeScriptBasicsLesson";
+import { CustomButtonTask } from "../tasks/14-custom-button-task/CustomButtonTask";
 import { GlobalStyle } from "./GlobalStyle";
 import { Pages } from "./Pages";
 
@@ -30,6 +32,8 @@ export function App() {
         <FavoritesTask />
         <KeysLesson />
         <StarsTask />
+        <TypeScriptBasicsLesson />
+        <CustomButtonTask />
       </Pages>
     </>
   );
