@@ -14,6 +14,20 @@ function add (a: number, b: number) {
 
 */
 
+import { useState } from "react";
+
 export function NumberInputTask() {
-  return <div>Task: Number Input</div>;
+  const [text, setText] = useState("");
+
+  function onChange(value: string) {
+    if (/^\d*$/.test(value)) {
+      setText(value);
+    }
+  }
+
+  return (
+    <div>
+      <input value={text} onChange={(e) => onChange(e.target.value)} />
+    </div>
+  );
 }
